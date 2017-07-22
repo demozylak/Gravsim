@@ -7,6 +7,9 @@
 * @todo add usage
 */
 
+#ifndef _LOG_H 
+#define _LOG_H
+
 #ifdef _DEBUG
 	#include <iostream>
 	#define __FILENAME__ (strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : __FILE__)
@@ -23,6 +26,8 @@
 	#define WARN
 	#define ERR
 #endif
+
+#endif //_LOG_H
 
 
 
