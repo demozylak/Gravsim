@@ -1,3 +1,11 @@
+/**
+* @file log.hpp
+* @author Marcin Zyla
+* @date 22.07.2017
+*
+* This file contains useful debug logging macros
+* @todo add usage
+*/
 
 #ifdef _DEBUG
 	#include <iostream>
