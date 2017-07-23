@@ -12,6 +12,7 @@
 namespace Gravsim {
 
 	class ControllerIface {
+	public:
 		///Empty destructor
 		virtual ~ControllerIface() {};
 	};
