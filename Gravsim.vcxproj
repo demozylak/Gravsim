@@ -193,9 +193,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="controller.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="controller.hpp" />
+    <ClInclude Include="controller_iface.hpp" />
+    <ClInclude Include="simulation_model_iface.hpp" />
     <ClInclude Include="util\log.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
