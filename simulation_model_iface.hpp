@@ -6,9 +6,7 @@
 * This file contains MVC Model interface
 */
 
-#ifndef _SIMULATION_MODEL_IFACE_H 
-#define _SIMULATION_MODEL_IFACE_H
-
+#pragma once
 namespace Gravsim {
 
 	class SimulationModelIface {
@@ -18,6 +16,3 @@ namespace Gravsim {
 	};
 
 }
-
-
-#endif //_SIMULATION_MODEL_IFACE_H

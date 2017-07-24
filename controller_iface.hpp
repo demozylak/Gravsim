@@ -6,9 +6,7 @@
 * This file contains MVC Controller interface
 */
 
-#ifndef _CONTROLLER_IFACE_H 
-#define _CONTROLLER_IFACE_H
-
+#pragma once
 namespace Gravsim {
 
 	class ControllerIface {
@@ -18,6 +16,3 @@ namespace Gravsim {
 	};
 
 }
-
-
-#endif //_CONTROLLER_IFACE_H

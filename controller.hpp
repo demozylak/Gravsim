@@ -6,8 +6,7 @@
 * This file contains MVC Controller declaration
 */
 
-#ifndef _CONTROLLER_H 
-#define _CONTROLLER_H
+#pragma once
 
 #include "controller_iface.hpp"
 #include "simulation_model_iface.hpp"
@@ -24,6 +23,3 @@ namespace Gravsim {
 	};
 
 }
-
-
-#endif //_CONTROLLER_H

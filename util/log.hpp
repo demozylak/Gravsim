@@ -7,8 +7,7 @@
 * @todo add usage
 */
 
-#ifndef _LOG_H 
-#define _LOG_H
+#pragma once
 
 #ifdef _DEBUG
 	#include <iostream>
@@ -26,10 +25,6 @@
 	#define WARN
 	#define ERR
 #endif
-
-#endif //_LOG_H
-
-
 
 
 
