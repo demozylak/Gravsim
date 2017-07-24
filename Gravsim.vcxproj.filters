@@ -40,5 +40,8 @@
     <ClInclude Include="iface_macro.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="iterable_iface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
