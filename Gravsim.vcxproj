@@ -195,12 +195,15 @@
   <ItemGroup>
     <ClCompile Include="controller.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="view.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="controller.hpp" />
     <ClInclude Include="controller_iface.hpp" />
+    <ClInclude Include="iface_macro.hpp" />
     <ClInclude Include="simulation_model_iface.hpp" />
     <ClInclude Include="util\log.hpp" />
+    <ClInclude Include="view.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

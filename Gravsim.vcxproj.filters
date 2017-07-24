@@ -17,6 +17,9 @@
     <ClCompile Include="controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\log.hpp">
@@ -29,6 +32,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="simulation_model_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iface_macro.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
