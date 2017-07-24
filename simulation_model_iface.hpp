@@ -20,4 +20,4 @@ namespace Gravsim {
 }
 
 
-#endif _SIMULATION_MODEL_IFACE_H
+#endif //_SIMULATION_MODEL_IFACE_H
