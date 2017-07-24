@@ -8,5 +8,8 @@
 #pragma once
 #include "iface_macro.hpp"
 
-INTERFACE_BEGIN(Controller)
-INTERFACE_END()
+namespace Gravsim {
+
+	INTERFACE_BEGIN(Controller)
+	INTERFACE_END()
+}

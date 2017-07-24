@@ -10,10 +10,9 @@
 #include "iface_macro.hpp"
 	
 namespace Gravsim {
+
 	template <T>
-	class IterableIface {
-		public:
-			virtual std::iterator<std::input_iterator_tag, T> getIterator() = 0;
-			virtual ~IterableIface() {};
-		};
+	INTERFACE_BEGIN(Iterable)
+		virtual std::iterator<std::input_iterator_tag, T> getIterator() = 0;
+	INTERFACE_END()
 }

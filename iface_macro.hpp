@@ -8,10 +8,9 @@
 
 #pragma once
 
-#define INTERFACE_BEGIN(name) namespace Gravsim { \
-								class name##Iface { \
+#define INTERFACE_BEGIN(name) class name##Iface { \
 									public: \
 									virtual ~##name##Iface() {};
 
-#define INTERFACE_END() }; }
+#define INTERFACE_END() };
 
