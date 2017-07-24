@@ -200,7 +200,7 @@
   <ItemGroup>
     <ClInclude Include="controller.hpp" />
     <ClInclude Include="controller_iface.hpp" />
-    <ClInclude Include="iface_macro.hpp" />
+    <ClInclude Include="util\iface_macro.hpp" />
     <ClInclude Include="iterable_iface.hpp" />
     <ClInclude Include="observable_iface.hpp" />
     <ClInclude Include="observer_iface.hpp" />

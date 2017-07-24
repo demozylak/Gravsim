@@ -6,7 +6,7 @@
 * This file contains observable interface used in observer pattern
 */
 #pragma once
-#include "iface_macro.hpp"
+#include "util/iface_macro.hpp"
 #include "observer_iface.hpp"
 
 namespace Gravsim {
