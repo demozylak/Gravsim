@@ -5,14 +5,8 @@
 *
 * This file contains MVC Controller interface
 */
-
 #pragma once
-namespace Gravsim {
+#include "iface_macro.hpp"
 
-	class ControllerIface {
-	public:
-		///Empty destructor
-		virtual ~ControllerIface() {};
-	};
-
-}
+INTERFACE_BEGIN(Controller)
+INTERFACE_END()

@@ -5,14 +5,8 @@
 *
 * This file contains MVC Model interface
 */
-
 #pragma once
-namespace Gravsim {
+#include "iface_macro.hpp"
 
-	class SimulationModelIface {
-	public:
-		///Empty destructor
-		virtual ~SimulationModelIface() {};
-	};
-
-}
+INTERFACE_BEGIN(SimulationModel)
+INTERFACE_END()
