@@ -201,7 +201,9 @@
     <ClInclude Include="controller.hpp" />
     <ClInclude Include="controller_iface.hpp" />
     <ClInclude Include="iface_macro.hpp" />
-    <ClInclude Include="iterable_iface.h" />
+    <ClInclude Include="iterable_iface.hpp" />
+    <ClInclude Include="observable_iface.hpp" />
+    <ClInclude Include="observer_iface.hpp" />
     <ClInclude Include="simulation_model_iface.hpp" />
     <ClInclude Include="util\log.hpp" />
     <ClInclude Include="view.hpp" />

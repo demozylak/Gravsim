@@ -40,7 +40,13 @@
     <ClInclude Include="iface_macro.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="iterable_iface.h">
+    <ClInclude Include="observable_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iterable_iface.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
