@@ -10,7 +10,7 @@
 #include "observer_iface.hpp"
 
 namespace Gravsim {
-	template<T>
+	template<typename T>
 	INTERFACE_BEGIN(Observable)
 		virtual void registerObserver(ObserverIface<T>) = 0;
 		virtual void unregisterObserver(ObserverIface<T>) = 0;
