@@ -194,21 +194,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Model\simulation_model.cpp" />
-    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="Gui\controller.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="view.cpp" />
+    <ClCompile Include="Gui\view.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Model\simulation_model.hpp" />
-    <ClInclude Include="MVCIface\controller.hpp" />
-    <ClInclude Include="MVCIface\controller_iface.hpp" />
+    <ClInclude Include="Gui\controller.hpp" />
+    <ClInclude Include="Core\controller_iface.hpp" />
     <ClInclude Include="util\iface_macro.hpp" />
-    <ClInclude Include="iterable_iface.hpp" />
-    <ClInclude Include="MVCIface\observable_iface.hpp" />
-    <ClInclude Include="MVCIface\observer_iface.hpp" />
-    <ClInclude Include="MVCIface\simulation_model_iface.hpp" />
+    <ClInclude Include="Core\iterable_iface.hpp" />
+    <ClInclude Include="Core\observable_iface.hpp" />
+    <ClInclude Include="Core\observer_iface.hpp" />
+    <ClInclude Include="Core\simulation_model_iface.hpp" />
     <ClInclude Include="util\log.hpp" />
-    <ClInclude Include="MVCIface\view.hpp" />
+    <ClInclude Include="Gui\view.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

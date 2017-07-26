@@ -6,5 +6,5 @@
 * This file contains MVC View definition
 */
 
-#include "MVCIface/view.hpp"
+#include "view.hpp"
 

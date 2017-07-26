@@ -7,7 +7,7 @@
 */
 #pragma once
 
-#include "../MVCIface/simulation_model_iface.hpp"
+#include "../Core/simulation_model_iface.hpp"
 
 namespace Gravsim {
 

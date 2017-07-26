@@ -8,8 +8,8 @@
 
 #pragma once
 
-#include "controller_iface.hpp"
-#include "simulation_model_iface.hpp"
+#include "../Core/controller_iface.hpp"
+#include "../Core/simulation_model_iface.hpp"
 
 namespace Gravsim {
 
