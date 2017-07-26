@@ -52,5 +52,8 @@
     <ClInclude Include="MVCIface\view.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Model\simulation_model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

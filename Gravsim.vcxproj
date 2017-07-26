@@ -199,6 +199,7 @@
     <ClCompile Include="view.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Model\simulation_model.hpp" />
     <ClInclude Include="MVCIface\controller.hpp" />
     <ClInclude Include="MVCIface\controller_iface.hpp" />
     <ClInclude Include="util\iface_macro.hpp" />
