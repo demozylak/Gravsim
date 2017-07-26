@@ -7,12 +7,28 @@
 */
 #pragma once
 
+#include <list>
+
 #include "../Core/simulation_model_iface.hpp"
+#include "../Core/observable_iface.hpp"
+#include "../Core/iterator.hpp"
+#include "../Core/drawable_iface.hpp"
 
 namespace Gravsim {
 
-	class Simulation : public SimulationModelIface{
+	typedef Iterator<DrawableIface> DrawIterator;
+
+	class Simulation : 
+		public SimulationModelIface, 
+		public ObservableIface<DrawIterator> {
 	public:
+
+		/* From ObservableIface*/
+		void registerObserver(ObserverIface<DrawIterator>*);
+		void unregisterObserver(ObserverIface<DrawIterator>*);
+
+	private:
+		std::list<ObserverIface<DrawIterator>*> observersList;
 
 	};
 

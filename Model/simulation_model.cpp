@@ -10,3 +10,12 @@
 
 using namespace Gravsim;
 
+void Gravsim::Simulation::registerObserver(ObserverIface<DrawIterator>* obs)
+{
+	observersList.push_back(obs);
+}
+
+void Gravsim::Simulation::unregisterObserver(ObserverIface<DrawIterator>* obs)
+{
+	observersList.remove(obs);
+}
