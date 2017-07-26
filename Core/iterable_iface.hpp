@@ -6,13 +6,14 @@
 * This file contains Iterable interface
 */
 #pragma once
-#include <iterator>
-#include "util/iface_macro.hpp"
+
+#include "iterator.hpp"
+#include "../util/iface_macro.hpp"
 	
 namespace Gravsim {
 
-	template <T>
+	template <typename T>
 	INTERFACE_BEGIN(Iterable)
-		virtual std::iterator<std::input_iterator_tag, T> getIterator() = 0;
+		virtual Iterator<T> getIterator() = 0;
 	INTERFACE_END()
 }
