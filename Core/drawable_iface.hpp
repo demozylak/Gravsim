@@ -17,6 +17,6 @@ namespace Gravsim {
 		virtual double getRelX() const = 0;
 		virtual double getRelY() const = 0;
 		virtual double getRelSize() const = 0;
-		virtual virtual sf::Color getColor() const = 0;
+		virtual sf::Color getColor() const = 0;
 	INTERFACE_END()
 }
