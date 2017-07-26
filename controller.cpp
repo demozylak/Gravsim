@@ -6,7 +6,7 @@
 * This file contains MVC Controller definition
 */
 
-#include "controller.hpp"
+#include "MVCIface/controller.hpp"
 
 using namespace Gravsim;
 

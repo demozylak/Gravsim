@@ -193,20 +193,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Model\simulation_model.cpp" />
     <ClCompile Include="controller.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="view.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="controller.hpp" />
-    <ClInclude Include="controller_iface.hpp" />
+    <ClInclude Include="MVCIface\controller.hpp" />
+    <ClInclude Include="MVCIface\controller_iface.hpp" />
     <ClInclude Include="util\iface_macro.hpp" />
     <ClInclude Include="iterable_iface.hpp" />
-    <ClInclude Include="observable_iface.hpp" />
-    <ClInclude Include="observer_iface.hpp" />
-    <ClInclude Include="simulation_model_iface.hpp" />
+    <ClInclude Include="MVCIface\observable_iface.hpp" />
+    <ClInclude Include="MVCIface\observer_iface.hpp" />
+    <ClInclude Include="MVCIface\simulation_model_iface.hpp" />
     <ClInclude Include="util\log.hpp" />
-    <ClInclude Include="view.hpp" />
+    <ClInclude Include="MVCIface\view.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

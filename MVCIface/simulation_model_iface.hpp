@@ -6,7 +6,7 @@
 * This file contains MVC Model interface
 */
 #pragma once
-#include "util/iface_macro.hpp"
+#include "../util/iface_macro.hpp"
 
 namespace Gravsim {
 

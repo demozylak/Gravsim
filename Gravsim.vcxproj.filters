@@ -14,6 +14,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Model\simulation_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -25,28 +28,28 @@
     <ClInclude Include="util\log.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="controller.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="controller_iface.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="simulation_model_iface.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="view.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="observable_iface.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="observer_iface.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="iterable_iface.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="util\iface_macro.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\controller.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\controller_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\observable_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\observer_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\simulation_model_iface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MVCIface\view.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
