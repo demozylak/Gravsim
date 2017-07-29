@@ -14,9 +14,12 @@
 #include "../Core/iterator.hpp"
 #include "../Core/drawable_iface.hpp"
 
+
 namespace Gravsim {
 
-	typedef Iterator<DrawableIface> DrawIterator;
+	namespace {
+		typedef Iterator<DrawableIface> DrawIterator;
+	}
 
 	class Simulation : 
 		public SimulationModelIface, 
