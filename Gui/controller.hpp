@@ -8,6 +8,7 @@
 
 #pragma once
 
+#include <SFML/Graphics.hpp>
 #include "../Core/controller_iface.hpp"
 #include "../Core/simulation_model_iface.hpp"
 
@@ -16,10 +17,15 @@ namespace Gravsim {
 	/// Concrete controller
 	class Controller : public ControllerIface {
 	public:
-		Controller(SimulationModelIface simulation);
+		Controller(SimulationModelIface *simulation);
+		int run();
+
 
 	private:
-		SimulationModelIface simulation;
+		/// Handle to mvc model
+		SimulationModelIface *_simulation;
+		/// SFML window handle
+		sf::RenderWindow * _window;
 	};
 
 }

@@ -11,5 +11,7 @@
 namespace Gravsim {
 
 	INTERFACE_BEGIN(Controller)
+		/// Main loop function
+		virtual int run() = 0;
 	INTERFACE_END()
 }
