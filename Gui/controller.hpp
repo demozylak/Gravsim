@@ -5,12 +5,13 @@
 *
 * This file contains MVC Controller declaration
 */
-
 #pragma once
 
 #include <SFML/Graphics.hpp>
 #include "../Core/controller_iface.hpp"
 #include "../Core/simulation_model_iface.hpp"
+#include "../Gui/view.hpp"
+
 
 namespace Gravsim {
 
@@ -22,6 +23,8 @@ namespace Gravsim {
 
 
 	private:
+		/// Handle to mvc view
+		View *_view;
 		/// Handle to mvc model
 		SimulationModelIface *_simulation;
 		/// SFML window handle

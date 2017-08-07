@@ -8,3 +8,10 @@
 
 #include "view.hpp"
 
+Gravsim::View::View(sf::Window * window) : _window(window)
+{
+}
+
+void Gravsim::View::notifyMe(Iterator<DrawableIface> it)
+{
+}

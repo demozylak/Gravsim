@@ -15,6 +15,7 @@ Controller::Controller(SimulationModelIface *simulation) : _simulation(simulatio
 {
 	LOG(INFO, "Creating Controller");
 	_window = new sf::RenderWindow(sf::VideoMode(800, 600), "Gravsim", sf::Style::Titlebar | sf::Style::Close);
+	_view = new View(_simulation, _window);
 	LOG(INFO, "Controller created");
 }
 
