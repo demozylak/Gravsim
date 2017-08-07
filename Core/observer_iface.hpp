@@ -12,6 +12,6 @@ namespace Gravsim {
 
 	template<typename T>
 	INTERFACE_BEGIN(Observer)
-		virtual void notifyObserver(T) = 0;
+		virtual void notifyMe(T) = 0;
 	INTERFACE_END()
 }
